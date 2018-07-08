@@ -4383,6 +4383,12 @@ gulp-group-css-media-queries@^1.2.2:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
+gulp-if-else@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gulp-if-else/-/gulp-if-else-1.0.3.tgz#4e08b15c03f90aeca7bc319a0f5857fe2d7474c3"
+  dependencies:
+    gulp-util "^3.0.1"
+
 gulp-if@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gulp-if/-/gulp-if-2.0.2.tgz#a497b7e7573005041caa2bc8b7dda3c80444d629"
@@ -5968,6 +5974,12 @@ lazy-cache@^1.0.3:
 lazy-req@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/lazy-req/-/lazy-req-1.1.0.tgz#bdaebead30f8d824039ce0ce149d4daa07ba1fac"
+
+lazypipe@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/lazypipe/-/lazypipe-1.0.1.tgz#1471aef6b37a340d51c34df44699dcef064c1940"
+  dependencies:
+    stream-combiner "*"
 
 lazystream@^1.0.0:
   version "1.0.0"
@@ -8788,7 +8800,7 @@ safe-wipe@0.*:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
-sass-convert@^0.5.0:
+sass-convert@^0.5.0, sass-convert@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/sass-convert/-/sass-convert-0.5.2.tgz#b1ed42b0e8d6fe98ec7ed6e78a38e26564860f06"
   dependencies:
@@ -9414,6 +9426,13 @@ stream-combiner2@^1.1.1:
   dependencies:
     duplexer2 "~0.1.0"
     readable-stream "^2.0.2"
+
+stream-combiner@*:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/stream-combiner/-/stream-combiner-0.2.2.tgz#aec8cbac177b56b6f4fa479ced8c1912cee52858"
+  dependencies:
+    duplexer "~0.1.1"
+    through "~2.3.4"
 
 stream-combiner@~0.0.4:
   version "0.0.4"
